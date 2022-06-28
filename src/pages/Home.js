@@ -2,6 +2,7 @@
 
   //components
   import WorkoutDetail from '../components/WorkoutDetail'
+  import WorkoutForm from "../components/WorkoutForm"
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
           <WorkoutDetail  key={workout._id} workout={workout}/>
         ))}
       </div>
+      <WorkoutForm />
     </div>
   )
 }
